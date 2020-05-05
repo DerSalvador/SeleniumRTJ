@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.junit.launchconfig">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/DownloadArchive/src/test/java/com/example/tests/KosmosDownload.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.junit.CONTAINER" value=""/>
+<booleanAttribute key="org.eclipse.jdt.junit.KEEPRUNNING_ATTR" value="false"/>
+<stringAttribute key="org.eclipse.jdt.junit.TESTNAME" value="testKosmosDownloadChrome"/>
+<stringAttribute key="org.eclipse.jdt.junit.TEST_KIND" value="org.eclipse.jdt.junit.loader.junit4"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.example.tests.KosmosDownload"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="DownloadArchive"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dhttp.proxyHost=bcinternet.juliusbaer.com -Dhttp.proxyPort=8080 -Dwebdriver.chrome.chrome=org.openqa.selenium.chrome.ChromeDriver -Dwebdriver.chrome.bin=&quot;C:\Users\u36342\AppData\Local\Google\Chrome\Application\chrome.exe&quot; -Dwebdriver.chrome.driver=&quot;Y:\Workspace\Chrome Selenium Driver\2.16 chromedriver_win32\chromedriver.exe&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="Y:\Users\u36342\sandboxes\sandbox1666\sandbox_workspace\foafc\dev\dev_15.R2\release\Tools\DEPLT\Eclipse_Launch_Configurations"/>
+</launchConfiguration>

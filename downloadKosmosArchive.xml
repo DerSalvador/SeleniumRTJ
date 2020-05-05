@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project DownloadArchive with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="Y:/Users/u36342/sandboxes/sandbox1666/sandbox_workspace/foafc/dev/dev_15.R2/release/Tools/DEPLT/Dev/DownloadArchive/bin/DownloadKosmosArchive.jar">
+            <manifest>
+                <attribute name="Main-Class" value="com.juliusbaer.selennium.browser.automation.KosmosDownload"/>
+                <attribute name="Class-Path" value=". DownloadKosmosArchive_lib/selenium-server-standalone-2.42.0.jar DownloadKosmosArchive_lib/jcommander.jar"/>
+            </manifest>
+            <fileset dir="Y:/Users/u36342/sandboxes/sandbox1666/sandbox_workspace/foafc/dev/dev_15.R2/release/Tools/DEPLT/Dev/DownloadArchive/bin"/>
+        </jar>
+        <delete dir="Y:/Users/u36342/sandboxes/sandbox1666/sandbox_workspace/foafc/dev/dev_15.R2/release/Tools/DEPLT/Dev/DownloadArchive/bin/DownloadKosmosArchive_lib"/>
+        <mkdir dir="Y:/Users/u36342/sandboxes/sandbox1666/sandbox_workspace/foafc/dev/dev_15.R2/release/Tools/DEPLT/Dev/DownloadArchive/bin/DownloadKosmosArchive_lib"/>
+        <copy file="Y:/Users/u36342/sandboxes/sandbox1666/sandbox_workspace/foafc/dev/dev_15.R2/release/Tools/DEPLT/Dev/libs/selenium-server-standalone-2.42.0.jar" todir="Y:/Users/u36342/sandboxes/sandbox1666/sandbox_workspace/foafc/dev/dev_15.R2/release/Tools/DEPLT/Dev/DownloadArchive/bin/DownloadKosmosArchive_lib"/>
+        <copy file="Y:/Users/u36342/sandboxes/sandbox1666/sandbox_workspace/foafc/dev/dev_15.R2/release/Tools/DEPLT/Dev/libs/jcommander.jar" todir="Y:/Users/u36342/sandboxes/sandbox1666/sandbox_workspace/foafc/dev/dev_15.R2/release/Tools/DEPLT/Dev/DownloadArchive/bin/DownloadKosmosArchive_lib"/>
+    </target>
+</project>
